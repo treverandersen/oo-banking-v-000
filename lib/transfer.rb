@@ -1,8 +1,8 @@
 class Transfer
   # your code here
 
-  def initialize(self)
-    
+  def initialize
+    @transfer = self
   end
 
 end
