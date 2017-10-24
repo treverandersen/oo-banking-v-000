@@ -14,7 +14,7 @@ class BankAccount
   end
 
   def display_balance
-    return 'Your balance is ' + balance.to_s + '.'
+    return 'Your balance is $' + balance.to_s + '.'
   end
 
 end
