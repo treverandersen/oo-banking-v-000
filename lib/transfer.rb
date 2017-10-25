@@ -18,7 +18,7 @@ class Transfer
 
       if sender.balance > amount
 
-        receiver.balance + amount
+        receiver.balance = receiver.balance + amount
         
         sender.balance = sender.balance - amount
       else
