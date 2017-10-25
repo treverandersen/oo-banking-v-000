@@ -17,7 +17,7 @@ class Transfer
     if sender.valid? == true && receiver.valid? == true
 
       if sender.balance > amount
-        
+
         receiver.balance + amount
         sender.balance - amount
       else
